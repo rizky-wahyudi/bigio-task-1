@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//ASCII untuk convert byte menjadi ASCII keyboard mulai dari '1'
 const ASCII = 49
 
 func main() {
