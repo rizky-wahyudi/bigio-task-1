@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+#main {
+    min-height: inherit;
+}
+
+/*
+|--------------------------------------------
+|   Login
+|--------------------------------------------
+*/
+
+.login-container {
+    display: flex;
+    min-width: inherit;
+    min-height: inherit;
+    align-items: center;
+    /* justify-content: center; */
+    background: linear-gradient(to bottom, #007bff66, #28a74566),url('../images/commodities-wallpaper.jpg');
+}
+
+.login-form {
+    height: 100vh;
+    flex-basis: 30%;
+    /* background: #ffffffcc; */
+    background: linear-gradient(to left, #ffffffaa 50%, #cfcc26 50%) right;
+    background-size: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.6s;
+}
+
+.login-form:hover {
+    background-position: left;
+    transition: all 0.5s;
+}
+
+.login-form h1 {
+    margin-bottom: 30px;
+}
+
+.login-form div {
+    min-width: 65%;
+    margin: 20px 0;
+}
+
+.form-group label {
+    font-size: 1.5em;
+}
+
+.form-group input {
+    font-size: 1.4em;
+}
+
+/*
+|--------------------------------------------
+|   Main Global
+|--------------------------------------------
+*/
+
+.greeting-message {
+
+}
+
+.main-menu {
+    width: 75%;
+    /* height: 500px; */
+    /* background-color: lawngreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-menu a {
+    position: relative;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    flex-basis: 450px;
+    height: 450px;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    top: 0;
+    box-shadow: 0px 0px 20px #2c2424;
+    transition: all 0.2s;
+}
+
+.main-menu a:hover {
+    top: -50px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 50px 15px #2c2424;
+    transition: all 0.2s;
+}
+
+.menu-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: -webkit-fill-available;
+}
+
+.image-menu img {
+    height: 200px;
+}
+
+.title-menu h2 {
+    font-weight: bold;
+}
+
+.logout-button a {
+    padding: 10px 50px;
+}
+
+.submit-button {
+    margin-top: 40px !important;
+}
+
+
+/*
+|--------------------------------------------
+|   Main Surveyor
+|--------------------------------------------
+*/
+
+#main-surveyor {
+    display: flex;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: khaki;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#input-commodity-surveyor {
+    display: flex;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#add-commodity-form {
+    min-height: 500px;
+    min-width: 30%;
+    background-color: salmon;
+    padding: 20px;
+}
+
+#add-commodity-form div {
+    margin: 10px 40px 20px 40px;
+}
+
+/*
+|--------------------------------------------
+|   Main Admin
+|--------------------------------------------
+*/
+
+#main-admin {
+    display: flex;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: khaki;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
